@@ -228,7 +228,6 @@ h2 {
     background: #e3e3e3;
     overflow: hidden;
     &:before {
-        border-top: $border;
         background: #fff;
         content: "";
         z-index: -1;
@@ -495,6 +494,9 @@ nav {
         }
         &-description {
             top: 0;
+        }
+        &__menu{
+            margin: 0 -30px;
         }
     }
     .is-opened .main__nav-button {
